@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * print_times_table - check main
- * @n: input
- * Description: function print_times_table()
- * Return: nothing
+ * print_times_table - print multiplication table up to n
+ * @n: integer argument
  */
 
 void print_times_table(int n)
@@ -49,5 +47,4 @@ void print_times_table(int n)
 			_putchar('\n');
 		}
 	}
-}  
-
+}
