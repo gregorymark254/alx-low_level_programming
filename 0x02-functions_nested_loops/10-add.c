@@ -1,6 +1,9 @@
 #include "main.h"
 
 /**
+ * add - check main
+ * @a: input
+ * @b: input
  * Description: function add()
  * Return: 0
  */
