@@ -1,16 +1,14 @@
 #include "lists.h"
 
 /**
- * list_len - gets the number of nodes
- *
- * @h: pointer to the head (first node)
- *
+ * list_len - Gets the number of nodes
+ * @h: pointer to the  node
  * Return: number of nodes
  */
 
 size_t list_len(const list_t *h)
 {
-	size_t node_count = 1;
+	var c = 1;
 
 	if (h == NULL)
 		return (0);
@@ -19,8 +17,8 @@ size_t list_len(const list_t *h)
 	{
 		h = h->next;
 
-		node_count++;
+		c++;
 	}
 
-	return (node_count);
+	return (c);
 }
