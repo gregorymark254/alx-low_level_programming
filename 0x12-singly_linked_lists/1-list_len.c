@@ -8,7 +8,7 @@
 
 size_t list_len(const list_t *h)
 {
-	var c = 1;
+	size_t c = 1;
 
 	if (h == NULL)
 		return (0);
