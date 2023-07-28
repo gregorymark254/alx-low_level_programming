@@ -4,8 +4,6 @@
  * begin - prints a sentence before main
  */
 
-void begin(void)__attribute__((constructor));
-
 void begin(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
