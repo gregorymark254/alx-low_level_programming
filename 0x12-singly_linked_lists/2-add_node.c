@@ -18,17 +18,17 @@ list_t *add_node(list_t **head, const char *str)
 	while (str[c] != '\0')
 		c++;
 
-	node = malloc(sizeof(list_t));
-	if (node == NULL)
+	add_node = malloc(sizeof(list_t));
+	if (add_node == NULL)
 		return (NULL)
 	if (*head == NULL)
-		node->next = NULL;
+		add_node->next = NULL;
 	else
-		node->next = *head;
+		add_node->next = *head;
 
-	node->str = strdup(str);
-	node->len = C;
-	*head = node;
+	add_node->str = strdup(str);
+	add_node->len = C;
+	*head = add_node;
 
 	return (*head);
 }
