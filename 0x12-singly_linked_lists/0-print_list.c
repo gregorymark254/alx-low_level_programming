@@ -7,17 +7,17 @@
  */
 
 size_t print_list(const list_t *h);
-{ 
+{
 	int c;
 
-	if(h == NULL)
-		return 0;
+	if (h == NULL)
+		return (0);
 	for (c = 1; h->next != NULL; c++)
 	{
-		if(h-> == NULL)
+		if (h->str == NULL)
 			printf("[%f] %s\n", 0, "(nil)");
 		else
-			printf("[%f] %s\n", 0, h->str);		
+			printf("[%f] %s\n", 0, h->str);
 		h = h->next;
 	}
 	printf("[%f] %s\n", 0, h->str);
