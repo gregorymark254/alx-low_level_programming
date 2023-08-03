@@ -9,13 +9,13 @@
 void print_binary(unsigned long int n)
 
 {
-	int a = sizeof(unsigned long int) * 8, c;
+	int b = sizeof(unsigned long int) * 8, i;
 	unsigned long int m;
 	int post = 0;
 
-	for (c = a - 1; c >= 0; c--)
+	for (i = b - 1; i >= 0; i--)
 	{
-		m = 1UL << c;
+		m = 1UL << i;
 		if ((n & m) == m)
 		{
 			_putchar('1');
