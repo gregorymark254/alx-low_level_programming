@@ -3,7 +3,7 @@
 /**
 * binary_to_uint - entry point of a node
 * @b: input node
-* Return: null or address 
+* Return: null or address
 */
 
 unsigned int binary_to_uint(const char *b)
