@@ -2,7 +2,7 @@
 
 /**
 * append_text_to_file - entry point to a node
-* @filename: pointer to node 
+* @filename: pointer to node
 * @text_content: input to a node
 * Return: null or address
 */
