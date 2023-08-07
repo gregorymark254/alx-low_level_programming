@@ -1,12 +1,14 @@
 #include "main.h"
 
 /**
-* read_textfile - entry point
-* @filename: input
-* @letters: input
-* Return: 0
+* read_textfile - entry point to a node
+* @filename: pointer to a node
+* @letters: input to a node
+* Return: null or address
 */
+
 ssize_t read_textfile(const char *filename, size_t letters)
+
 {
 	char *memory;
 	int openf;
