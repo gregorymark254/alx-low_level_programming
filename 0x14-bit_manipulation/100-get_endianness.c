@@ -2,7 +2,7 @@
 
 /**
   * get_endianness - entry point to a node
-  * Return: 0 or 1
+  * Return: null or address
   */
 
 int get_endianness(void)
