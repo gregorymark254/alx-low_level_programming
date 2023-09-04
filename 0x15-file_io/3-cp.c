@@ -6,16 +6,14 @@
 #include "main.h"
 
 #define READF  "Error: Can't read from file %s\n"
-
 /**
   * main - entry point
-  * @argc: pointer to anode
-  * @argv: input to a node
-  * Return: null or address
+  * @argc: input
+  * @argv: input
+  * Return: 0
   */
 
 int main(int argc, char *argv[])
-
 {
 	char mem[1024];
 	int from, to, closef;
