@@ -7,10 +7,9 @@
  * @dest: destination of the file
  * @argv: arguments
  * Return: null or address
-*/
+ */
 
 void file_error(int org, int dest, char *argv[])
-
 {
 	if (org == -1)
 	{
@@ -29,10 +28,8 @@ void file_error(int org, int dest, char *argv[])
  * @argc: argument counter
  * @argv: arguments vector
  * Return: null or address
-*/
-
+ */
 int main(int argc, char *argv[])
-
 {
 	int org, dest, close_error;
 	ssize_t nchars, nwr;
